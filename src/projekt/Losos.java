@@ -4,7 +4,7 @@ public class Losos implements Zwierzę {
 
     @Override
     public String dajGlos() {
-        return "Łosoś robi: Aaammm Aammm, a łap ma: ";
+        return "Łosoś robi: aaammm aammm, a łap ma: ";
     }
 
     @Override
