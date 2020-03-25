@@ -1,18 +1,18 @@
 package projekt;
 
-public class Pies implements Animal {
+public class Losos implements Animal {
     @Override
     public String dajGlos() {
-        return "hau hau: ";
+        return "Aaammm Aammm"+ 4 ;
     }
 
     @Override
     public Integer iloscLap(int a) {
-        return a=4;
+        return null;
     }
 
     @Override
     public Integer iloscLap() {
-        return 4;
+        return 0;
     }
 }
