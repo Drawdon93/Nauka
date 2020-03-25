@@ -8,11 +8,11 @@ public class Pies implements Animal {
 
     @Override
     public Integer iloscLap(int a) {
-        return a=4;
+        return a=5;
     }
 
-    @Override
-    public Integer iloscLap() {
-        return 4;
-    }
+//    @Override
+//    public Integer iloscLap() {
+//        return 4;
+//    }
 }

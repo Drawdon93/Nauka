@@ -1,5 +1,5 @@
 package projekt;
 
 public interface Lapy {
-    Integer iloscLap();
+    Integer iloscLap(int a);
 }

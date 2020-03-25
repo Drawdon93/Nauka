@@ -12,7 +12,7 @@ public class Main {
         AnimalList.add(new Losos());
         for (Animal one:AnimalList){
         System.out.println(one.dajGlos());
-        System.out.println(one.iloscLap());
+        System.out.println(one.iloscLap(0));
         }
 
 

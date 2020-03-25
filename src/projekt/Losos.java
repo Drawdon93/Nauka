@@ -8,11 +8,11 @@ public class Losos implements Animal {
 
     @Override
     public Integer iloscLap(int a) {
-        return null;
+        return a=0;
     }
 
-    @Override
-    public Integer iloscLap() {
-        return 0;
-    }
+//    @Override
+//    public Integer iloscLap() {
+//        return 0;
+//    }
 }
