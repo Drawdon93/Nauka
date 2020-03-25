@@ -1,20 +1,19 @@
 package projekt;
 
-public class Losos implements Zwierzę {
+public class Słoń implements Zwierzę {
 
     @Override
     public String dajGlos() {
-        return "Łosoś robi: Aaammm Aammm, a łap ma: ";
+        return "Słoń robi trututuuu, a łap ma: ";
     }
 
     @Override
     public Integer iloscLap(int a) {
-        return 0;
+        return 4;
     }
-
 }
 
 //    @Override
 //    public Integer iloscLap() {
-//        return 0;
+//        return 4;
 //    }

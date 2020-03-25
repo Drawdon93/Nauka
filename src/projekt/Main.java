@@ -6,19 +6,21 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        List<Animal> AnimalList = new ArrayList<>();
-        AnimalList.add(new Kot());
-        AnimalList.add(new Pies());
-        AnimalList.add(new Losos());
-        for (Animal one:AnimalList){
-        System.out.println(one.dajGlos());
-        System.out.println(one.iloscLap(0));
+        List<Zwierzę> zwierzęList = new ArrayList<>();
+
+        zwierzęList.add(new Kot());
+        zwierzęList.add(new Pies());
+        zwierzęList.add(new Lew());
+        zwierzęList.add(new Losos());
+        zwierzęList.add(new Słoń());
+
+
+        for (Zwierzę zwierzę : zwierzęList) {
+            System.out.println(zwierzę.dajGlos());
+            System.out.println(zwierzę.iloscLap(0));
         }
 
-
     }
-
-
 }
 //Praca w grupach. Udostępniacie sobie repozytorium
 // nawzajem i dodajecie zwierzęta Lew, Łosoś, Słoń oraz

@@ -1,5 +1,6 @@
 package projekt;
 
 public interface Glos {
-String dajGlos();
+
+    String dajGlos();
 }

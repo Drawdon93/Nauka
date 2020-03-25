@@ -1,18 +1,19 @@
 package projekt;
 
-public class Pies implements Animal {
+public class Pies implements Zwierzę {
+
     @Override
     public String dajGlos() {
-        return "hau hau: ";
+        return "Pies robi: hau hau, a łap ma: ";
     }
 
     @Override
     public Integer iloscLap(int a) {
-        return a=5;
+        return 4;
     }
+}
 
 //    @Override
 //    public Integer iloscLap() {
 //        return 4;
 //    }
-}
