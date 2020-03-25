@@ -1,9 +1,13 @@
 package projekt;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        //zmiana jeden
+        List<Glos> GlosList = new ArrayList<>();
+        GlosList.add(new Kot());
+        GlosList.add(new Kot());
     }
 }
